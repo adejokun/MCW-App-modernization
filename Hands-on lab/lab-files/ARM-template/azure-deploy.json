@@ -41,7 +41,7 @@
         "webNetworkInterfaceName": "[concat(variables('webVirtualMachineName'), '-nic')]",
         "webPublicIpAddressName": "[concat(variables('webVirtualMachineName'), '-ip')]",
 
-        "sqlVirtualMachineName": "SqlServer2008",
+        "sqlVirtualMachineName": "SqlServer2014",
         "sqlNetworkSecurityGroupName": "[concat(variables('sqlVirtualMachineName'), '-nsg')]",
         "sqlNetworkInterfaceName": "[concat(variables('sqlVirtualMachineName'), '-nic')]",
         "sqlPublicIpAddressName": "[concat(variables('sqlVirtualMachineName'), '-ip')]",
